@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Responsive Images UX5 - FMS</title>
+  </head>
+  <body>
+    <div class="page-container">
+      <header class="hero-image">
+        <picture>
+          <source
+            media="(min-width: 560px)"
+            srcset="./responsive-images-assets/hero.jpg"
+          />
+          <source
+            media="(max-width:220px)"
+            srcset="./responsive-images-assets/hero-small.jpg"
+          />
+          <img
+            src="./responsive-images-assets/hero-big.jpg"
+            alt="tiger"
+            title="hero tiger"
+          />
+        </picture>
+      </header>
+      <section class="profile">
+        <div class="profile-pic">
+          <img
+            src="./responsive-images-assets/profile.png"
+            alt="profile daniel"
+            title="profile daniel"
+          />
+        </div>
+        <h1>Daniel McFishy Whisker Fish</h1>
+      </section>
+      <main class="cat-boxes">
+        <div class="cat-pics cat1">
+          <img
+            src="./responsive-images-assets/cat-1.jpg"
+            alt="striped bus 1"
+            title="striped bus 1"
+          />
+        </div>
+        <div class="cat-pics cat2">
+          <img
+            src="./responsive-images-assets/cat-2.jpg"
+            alt="striped bus 2"
+            title="striped bus 2"
+          />
+        </div>
+        <div class="cat-pics cat3">
+          <img
+            src="./responsive-images-assets/cat-3.jpg"
+            alt="black n white"
+            title="black n white fuzz"
+          />
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
