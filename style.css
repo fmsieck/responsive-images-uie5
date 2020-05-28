@@ -54,6 +54,9 @@ h1 {
   object-fit: cover;
 }
 
+/* .cat3 {
+  max-width: 50%;
+} */
 /* media queries */
 
 @media (min-width: 560px) {
